@@ -1,0 +1,27 @@
+{
+  "name": "todo_server",
+  "version": "1.0.0",
+  "description": "TODO Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.js --forceExit --coverage",
+    "migrate": "./node_modules/.bin/sequelize db:migrate",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Sandro Estrada",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "supertest": "^6.0.1"
+  }
+}
