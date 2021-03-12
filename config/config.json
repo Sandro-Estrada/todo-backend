@@ -7,11 +7,7 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "mwypobvtwhjnpz",
-    "password": "e26e6e112e40c35ba86ad2a8ff7b715879df3cb9a2f0742e6660ddf857466c7a",
-    "database": "dbjtsr14gvphlp",
-    "host": "ec2-54-145-249-177.compute-1.amazonaws.com",
-    "dialect": "postgres"
+    "use_env_variable": "DATABASE_URL"
   },
   "production": {
     "username": "postgres",
