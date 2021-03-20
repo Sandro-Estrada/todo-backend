@@ -18,7 +18,6 @@ nvm use
 ```
 
 ## Configuraciones ⚙
-
 ### Base de datos
 
 Puedes configurar el archivo **config.json** que se encuentra en la carpeta **config** para manejar
@@ -69,6 +68,20 @@ npm install
 ```
 npm run test
 ```
+
+## Documentación
+### Endpoints
+La documentación de los endpoints fue realizada en [Postman](https://documenter.getpostman.com/view/4955309/Tz5wVZFC)
+
+### Código
+La documentación del código fue realizado con [jsDoc](https://www.npmjs.com/package/jsdoc) y con el template [docdash](https://github.com/clenemt/docdash).
+Para poder [visualizar](./docs/DOC_FUNC.png) dicha documentación debes ir a la carpeta [**./docs**](./docs) y abrir el [**index.html**](./docs/index.html) con el explorador.
+
+Para volver a crear documentación nueva (una vez documentado el código nuevo) debes de ejecutar:
+
+````
+npm run doc
+````
 
 ## Licencia
 
