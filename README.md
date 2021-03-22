@@ -75,7 +75,7 @@ La documentación de los endpoints fue realizada en [Postman](https://documenter
 
 ### Código
 La documentación del código fue realizado con [jsDoc](https://www.npmjs.com/package/jsdoc) y con el template [docdash](https://github.com/clenemt/docdash).
-Para poder [visualizar](./docs/DOC_FUNC.png) dicha documentación debes ir a la carpeta [**./docs**](./docs) y abrir el [**index.html**](./docs/index.html) con el explorador.
+Para poder [visualizar](./docs/FULL_DOC.png) dicha documentación debes ir a la carpeta [**./docs**](./docs) y abrir el [**index.html**](./docs/index.html) con el explorador.
 
 Para volver a crear documentación nueva (una vez documentado el código nuevo) debes de ejecutar:
 
